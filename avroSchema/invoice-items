@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "InvoiceItem",
+  "namespace": "spark.example.sn.types",
+  "fields": [
+    {"name": "InvoiceNumber","type": ["string", "null"]},
+    {"name": "CreatedTime","type": ["long", "null"]},
+    {"name": "StoreID","type": ["string", "null"]},
+    {"name": "PosID","type": ["string", "null"]},
+    {"name": "CustomerType","type": ["string", "null"]},
+    {"name": "CustomerCardNo","type": ["string", "null"]},
+    {"name": "TotalAmount","type": ["double", "null"]},
+    {"name": "NumberOfItems","type": ["int", "null"]},
+    {"name": "PaymentMethod","type": ["string", "null"]},
+    {"name": "TaxableAmount","type": ["double", "null"]},
+    {"name": "DeliveryType","type": ["string", "null"]},
+    {"name": "ItemCode","type": ["string", "null"]},
+    {"name": "ItemDescription","type": ["string", "null"]},
+    {"name": "ItemPrice","type": ["string", "null"]},
+    {"name": "ItemQty","type": ["string", "null"]},
+    {"name": "TotalValue","type": ["string", "null"]}
+  ]
+}
+
